@@ -1,0 +1,5 @@
+# Ignore key output
+**/*.crt
+**/*.key
+**/*.srl
+**/*.csr
