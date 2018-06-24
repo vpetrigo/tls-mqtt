@@ -17,3 +17,13 @@ Run the Python script:
 ```bash
 $~ : python3 main.py
 ```
+
+## Example configuration for Mosquitto
+
+```bash
+use_identity_as_username true
+require_certificate true
+certfile <HOME_PATH>/tls-mqtt/conf/server.crt
+cafile <HOME_PATH>/tls-mqtt/conf/ca.crt
+keyfile <HOME_PATH>/tls-mqtt/conf/server.key
+```
