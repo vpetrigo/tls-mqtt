@@ -1,3 +1,5 @@
+# Python virtual env
+venv/
 # Ignore key output
 **/*.crt
 **/*.key
